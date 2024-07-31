@@ -66,7 +66,8 @@
             <a href="#" class="btn">
                 <button>Button</button>
             </a>
-            <div class="wrapper">
+            <div class="">
+
 
             </div>
 
@@ -150,30 +151,75 @@
 
     <section class="contentCard">
         <div class="column1">
-            <div class="card1">
-                <img src="https://via.placeholder.com/150" alt="Imagen">
-                <p>Agregar un subtítulo</p>
+            <div class="e-card playing card1">
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="infotop">
+                    <div class="bx bx-store" id="store-btn"></div>
+                    <br>Productos seguros
+                    <div class="name">Garantizamos su calidad</div>
+                </div>
             </div>
-            <div class="card2">
-                <img src="https://via.placeholder.com/150" alt="Imagen">
-                <p>Agregar un subtítulo</p>
+            <div class="e-card playing card2">
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="infotop">
+                    <div class="bx bx-badge-check"></div>
+                    <br>Los mejores productos
+                    <div class="name">En todas las ordenes</div>
+                </div>
             </div>
         </div>
         <div class="column2">
-            <div class="card3">
-                <img src="https://via.placeholder.com/150" alt="Imagen">
-                <p>Agregar un subtítulo</p>
+            <div class="e-card playing card3">
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="infotop">
+                    <div class="bx bx-user-check" ></div>
+                    <br>El mejor servicio
+                    <div class="name">para nuestros clientes</div>
+                </div>
             </div>
-            <div class="card4">
-                <img src="https://via.placeholder.com/150" alt="Imagen">
-                <p>Agregar un subtítulo</p>
+            <div class="e-card playing card4">
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="wave"></div>
+                <div class="infotop">
+                    <div class="bx bxs-package" ></div>
+                    <br>Agregar un subtítulo
+                    <div class="name">Card 4</div>
+                </div>
             </div>
         </div>
-        <div class="text-sec2">
-            <h1>Agregar un título</h1>
-            <h2>Agregar un subtítulo</h2>
+        <div class="text-section">
+            <h1>Encuentra lo que necesitas con una sonrisa en Abarrotes Olan. </h1>
+            <h2>Nos enorgullece ofrecerte una selección de productos frescos
+                y a precios justos, todo en un entorno que te hará sentir como
+                en casa. Valoramos tu confianza y trabajamos arduamente para
+                garantizar que cada visita sea cómoda y eficiente. Nuestro equipo
+                está aquí para atender tus necesidades y asegurarse de que encuentres
+                todo lo que buscas. Gracias por permitirnos ser parte de tu rutina diaria
+                y por elegirnos como tu abarrotes de confianza.</h2>
+                <a style="--clr: #7808d0" class="buttonExplore" href="#">
+                    <span class="button__icon-wrapper">
+                        <svg width="10" class="button__icon-svg" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 15">
+                            <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                        </svg>
+
+                        <svg class="button__icon-svg  button__icon-svg--copy" xmlns="http://www.w3.org/2000/svg" width="10" fill="none" viewBox="0 0 14 15">
+                            <path fill="currentColor" d="M13.376 11.552l-.264-10.44-10.44-.24.024 2.28 6.96-.048L.2 12.56l1.488 1.488 9.432-9.432-.048 6.912 2.304.024z"></path>
+                        </svg>
+                    </span>
+                    Explorar Más
+                </a>
         </div>
     </section>
+    <!--fin seccion de informacion-->
+
+
 
     <!--inicio seccion de iconos-->
 
