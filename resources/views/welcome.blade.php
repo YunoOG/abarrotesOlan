@@ -225,7 +225,7 @@
 
     <section class="Información" id="Información">
 
-        <h1 class="heading"> <span> sobre </span> nosotros </h1>
+        <h1 class="heading"> <span> Sobre </span> nosotros </h1>
 
         <div class="row">
 
@@ -242,13 +242,23 @@
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sapiente repudiandae maiores similique
                     aperiam voluptate eum aspernatur perferendis inventore ipsam quos placeat quibusdam, unde doloribus
                     modi aliquid autem. Hic, earum voluptatem.</p>
-                <a href="#" class="btn">Leer más</a>
+
+                    <div class="btnContent1">
+                        <button class="learn-more">
+                            <span class="circle" aria-hidden="true">
+                            <span class="icon arrow"></span>
+                            </span>
+                            <span class="button-text">Learn More</span>
+                          </button>
+                    </div>
             </div>
 
         </div>
 
     </section>
     <!--fin seccion de informacion-->
+
+
 
     <!--inicio seccion de productos-->
 

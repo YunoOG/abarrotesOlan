@@ -11,6 +11,10 @@ Route::get('/admin', function () {
     return view('admin');
 });
 
+Route::get('/products', function () {
+    return view('products');
+});
+
 
 
 Route::get('/dashboard', function () {

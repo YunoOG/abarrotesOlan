@@ -239,6 +239,11 @@ button {
 
 
   /*informacion*/
+.Información{
+    background-color: #f1f1f1;
+}
+
+
 
   .Información .row{
     display: flex;
@@ -1073,3 +1078,7 @@ ul {
 .bx bx-user-check{
     font-size: 3em; /* Ajusta el tamaño según la necesidad */
 }
+
+
+/*Botton Leer más*/
+
