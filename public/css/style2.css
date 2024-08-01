@@ -1082,3 +1082,19 @@ ul {
 
 /*Botton Leer más*/
 
+#store-btn {
+    font-size: 48px; /* Ajusta este valor según el tamaño deseado */
+}
+
+#badge-check {
+    font-size: 48px; /* Ajusta este valor según el tamaño deseado */
+}
+
+#user-check{
+    font-size: 48px; /* Ajusta este valor según el tamaño deseado */
+}
+
+#bxs-package{
+    font-size: 48px; /* Ajusta este valor según el tamaño deseado */
+}
+

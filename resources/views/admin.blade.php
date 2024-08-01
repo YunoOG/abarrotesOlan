@@ -148,7 +148,7 @@
               alt="" />
             <img
               class="header-desktop"
-              src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/91011799-2b47-457d-9e11-65fe38a105d0"
+              src="imag/banner_admin.png"
               alt="" />
           </picture>
         </div>

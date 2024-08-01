@@ -166,7 +166,7 @@
                 <div class="wave"></div>
                 <div class="wave"></div>
                 <div class="infotop">
-                    <div class="bx bx-badge-check"></div>
+                    <div class="bx bx-badge-check" id="badge-check"></div>
                     <br>Los mejores productos
                     <div class="name">En todas las ordenes</div>
                 </div>
@@ -178,7 +178,7 @@
                 <div class="wave"></div>
                 <div class="wave"></div>
                 <div class="infotop">
-                    <div class="bx bx-user-check" ></div>
+                    <div class="bx bx-user-check" id="user-check"></div>
                     <br>El mejor servicio
                     <div class="name">para nuestros clientes</div>
                 </div>
@@ -188,7 +188,7 @@
                 <div class="wave"></div>
                 <div class="wave"></div>
                 <div class="infotop">
-                    <div class="bx bxs-package" ></div>
+                    <div class="bx bxs-package" id="bxs-package"></div>
                     <br>Agregar un subtítulo
                     <div class="name">Card 4</div>
                 </div>
