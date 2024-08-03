@@ -80,7 +80,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  width: 260px;
+  width: 280px;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -131,9 +131,21 @@ body {
   border-radius: 5px;
 }
 
-.nav-Abarrotes{
+
+.nav-Abarrotes-container {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el contenido */
+  }
+
+  .nav-Abarrotes {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+/*.nav-Abarrotes{
     display: block;
-}
+}*/
 
 .nav-Abarrotes a{
     display: flex;
@@ -172,7 +184,7 @@ body {
 .content {
   position: absolute;
   top: 0;
-  left: 260px; /*para hacer el main-nav mas grande*/
+  left: 280px; /*para hacer el main-nav mas grande*/
   right: 0;
   min-height: 100vh;
   display: grid;
@@ -259,11 +271,13 @@ body {
   margin: 16px 0 10px;
 }
 
+/*cards*/
+
 .event-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 20px;
-  padding: 14px 0 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Dos columnas para dos tarjetas arriba y dos abajo */
+    gap: 20px;
+    padding: 14px 0 20px;
 }
 
 .event-card {
@@ -885,8 +899,9 @@ body::-webkit-scrollbar-thumb {
     font-family: "Nunito", sans-serif;
   }
 
-  #shoppingCart{
-    font-size: 48px;
+  #shoppingCart {
+    margin-right: 10px; /* Espacio entre el ícono y el texto */
+    font-size: 24px; /* Ajusta el tamaño del ícono si es necesario */
   }
 
 
@@ -938,22 +953,37 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+}
+
+.text-content45 {
+
+    margin-top: -10px; /* acomodar el texto */
 }
 
 .text-content45 h1 {
-    margin: -10;
+    margin: 0;
+    color: #000000;
     font-size: 36px;
     font-weight: bold;
+    margin-bottom: 18px;
 }
 
 .text-content45 p {
     margin: 5px 0 0 0;
     font-size: 18px;
     color: #555;
+    margin-bottom: 298px;
+}
+
+.image-content45 {
+    display: flex;
+    justify-content: center; /* Centra la imagen dentro de su contenedor */
+    align-items: center;
+    margin-top: -300px;
 }
 
 .image-content45 img {
-    width: 200px;
+    width: 300px; /* Ajusta el tamaño de la imagen según tus necesidades */
     height: auto;
 }
-
