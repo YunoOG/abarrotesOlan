@@ -225,7 +225,7 @@
 
     <section class="Información" id="Información">
 
-        <h1 class="heading"> <span> Sobre </span> nosotros </h1>
+        <h1 class="sobrenosotros"> <span> Sobre </span> nosotros </h1>
 
         <div class="row">
 
@@ -255,8 +255,17 @@
 
         </div>
 
-    </section>
+    </section class>
     <!--fin seccion de informacion-->
+
+    <!--informacion-->
+    <section class="InfoCo" id="Información">
+
+    </section>
+
+
+
+    <!--fin informacion-->
 
 
 

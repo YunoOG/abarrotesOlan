@@ -22,13 +22,9 @@
         <div>
             <li class="nav-Abarrotes">
                 <a href="#">
-                    <i class="fa-solid fa-cart-shopping"></i>
-
-
+                    <i class="fa-solid fa-cart-shopping" id="shoppingCart" ></i>
                 </a>
-
             </li>
-
             <h1>Abarrotes Olán</h1>
         </div>
 
@@ -37,21 +33,21 @@
         <ul>
           <li class="nav-item active">
             <a href="#">
-              <i class="fa fa-user nav-icon"></i>
+                <i class="fa-solid fa-house nav-icon"></i>
               <span class="nav-text">Inicio</span>
             </a>
           </li>
 
           <li class="nav-item">
             <a href="#">
-              <i class="fa fa-map nav-icon"></i>
+                <i class="fa-solid fa-user nav-icon"></i>
               <span class="nav-text">Accesos</span>
             </a>
           </li>
 
           <li class="nav-item">
             <a href="#">
-              <i class="fa fa-arrow-trend-up nav-icon"></i>
+                <i class="fa-solid fa-list nav-icon"></i>
               <span class="nav-text">Categorías</span>
             </a>
           </li>
@@ -101,7 +97,12 @@
     </nav>
 
     <section class="content">
-      <div class="left-content">
+        <div class="left-content">
+
+
+        <!--busqueda
+
+
         <div class="search-and-check">
           <form class="search-box">
             <input type="text" placeholder="Search event..." />
@@ -120,8 +121,11 @@
             </div>
           </div>
         </div>
+        fin de busqueda-->
 
         <div class="header">
+
+
           <picture class="morning-img hidden">
             <img
               class="header-mobile"
@@ -136,6 +140,19 @@
               src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/cce4084a-01a4-428d-961f-935bafe7a6e3"
               alt="" />
           </picture>
+          <h1 class="buenTrabajo">¡Buen trabajo!</h1>
+          <div class="container45">
+
+            <div class="content45">
+                <div class="text-content45">
+                    <h1>Hola, usuario</h1>
+                    <p>16 Julio, Martes</p>
+                </div>
+                <div class="image-content45">
+                    <img src="imag/admin2.png" alt="Imagen de usuario">
+                </div>
+            </div>
+
 
           <picture class="night-img">
             <img
@@ -146,12 +163,15 @@
               class="header-tablet"
               src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/1266c923-a1d3-441a-bbb6-2dc6663b1f8b"
               alt="" />
-            <img
-              class="header-desktop"
-              src="imag/banner_admin.png"
-              alt="" />
+
+
+
           </picture>
+
+
+
         </div>
+
 
         <div class="upcoming-events">
           <h1>Upcoming Events</h1>
@@ -509,124 +529,7 @@
         </div>
       </div>
 
-      <div class="right-content">
-        <div class="interaction-control interactions">
-          <i class="fa-regular fa-envelope notified"></i>
-          <i class="fa-regular fa-bell notified"></i>
-          <div class="toggle" onclick="switchTheme()">
-            <div class="mode-icon moon">
-              <i class="bx bxs-moon"></i>
-            </div>
-            <div class="mode-icon sun hidden">
-              <i class="bx bxs-sun"></i>
-            </div>
-          </div>
-        </div>
 
-        <div class="analytics">
-          <h1>Analytics</h1>
-          <div class="analytics-container">
-            <div class="total-events">
-              <div class="event-number card">
-                <h2>Past Events</h2>
-                <p>20</p>
-                <i class="bx bx-check-circle"></i>
-              </div>
-              <div class="event-number card">
-                <h2>Upcoming Events</h2>
-                <p>3</p>
-                <i class="bx bx-timer"></i>
-              </div>
-            </div>
-
-            <div class="chart" id="doughnut-chart">
-              <h2>Distribution of Attended Events</h2>
-              <canvas id="doughnut"></canvas>
-              <ul></ul>
-            </div>
-          </div>
-        </div>
-
-        <div class="contacts">
-          <h1>Contacts</h1>
-          <div class="contacts-container">
-            <div class="contact-status">
-              <div class="contact-activity">
-                <img
-                  src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/e56800db-687d-4d0e-a470-51e37a4431c7"
-                  alt="" />
-                <p>Matt favored <span>Jazz Fusion Night</span></p>
-              </div>
-              <small>1 hour ago</small>
-            </div>
-
-            <div class="contact-status">
-              <div class="contact-activity">
-                <img
-                  src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/fac9f27b-c1ea-4bba-973f-88996322fa2d"
-                  alt="" />
-                <p>
-                  Bella bought a ticket for
-                  <span>Acoustic Serenade Under the Stars</span>
-                </p>
-              </div>
-              <small>4 hours ago</small>
-            </div>
-
-            <div class="contact-status">
-              <div class="contact-activity">
-                <img
-                  src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/1499d73c-ccc0-41a1-b530-1d629012aebd"
-                  alt="" />
-                <p>
-                  Lucas bought a ticket for
-                  <span>Wimbledon Championships - 2024</span>
-                </p>
-              </div>
-              <small>1 day ago</small>
-            </div>
-
-            <div class="contact-status">
-              <div class="contact-activity">
-                <img
-                  src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/949768d4-0196-486c-b386-edb47ddd54c2"
-                  alt="" />
-                <p>
-                  Sophia favored
-                  <span>Clay Sculpting Class</span>
-                </p>
-              </div>
-              <small>1 day ago</small>
-            </div>
-
-            <div class="contact-status">
-              <div class="contact-activity">
-                <img
-                  src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/8a470b8b-b5cf-4189-b36e-f22551997ff4"
-                  alt="" />
-                <p>
-                  Kate bought a ticket for
-                  <span>Latin Rhythms Fusion</span>
-                </p>
-              </div>
-              <small>3 day ago</small>
-            </div>
-
-            <div class="contact-status">
-              <div class="contact-activity">
-                <img
-                  src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/7740acc0-3f86-4c28-8a8c-5ae67c343edb"
-                  alt="" />
-                <p>
-                  Ben favored
-                  <span>Harry Potter Film Concert Series</span>
-                </p>
-              </div>
-              <small>6 day ago</small>
-            </div>
-          </div>
-        </div>
-      </div>
     </section>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>

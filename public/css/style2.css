@@ -1074,27 +1074,39 @@ ul {
     transform: translate(0);
   }
 
-  /* Nueva clase para hacer los iconos más grandes */
+  /*iconos más grandes */
 .bx bx-user-check{
-    font-size: 3em; /* Ajusta el tamaño según la necesidad */
+    font-size: 3em; /* tamaño */
 }
 
 
-/*Botton Leer más*/
+/*Botones segunda seccion*/
 
 #store-btn {
-    font-size: 48px; /* Ajusta este valor según el tamaño deseado */
+    font-size: 48px;
 }
 
 #badge-check {
-    font-size: 48px; /* Ajusta este valor según el tamaño deseado */
+    font-size: 48px;
 }
 
 #user-check{
-    font-size: 48px; /* Ajusta este valor según el tamaño deseado */
+    font-size: 48px;
 }
 
 #bxs-package{
-    font-size: 48px; /* Ajusta este valor según el tamaño deseado */
+    font-size: 48px;
 }
 
+
+.sobrenosotros{
+    font-size: 48px; /* Tamaño de la fuente */
+    text-align: center; /* Centrando el texto */
+    font-weight: bold;
+    padding-right: -200px;
+}
+
+.sobrenosotros span {
+    color: #007bff; /*  color del texto dentro del span */
+    text-align: center;
+}
