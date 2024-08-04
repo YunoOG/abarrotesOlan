@@ -92,13 +92,13 @@
             <h1>Productos</h1>
             <div class="products-grid">
                 <div class="product-card">
-                    <img src="product1.png" alt="Producto 1">
+                    <img src="imag/marmol.jpg" alt="Producto 1">
                     <h3>Agua Purificada Ciel Garrafón de 20 L Retornable</h3>
                     <p>Desde <strong>$36.00</strong></p>
                     <button>Agregar</button>
                 </div>
                 <div class="product-card">
-                    <img src="product2.png" alt="Producto 2">
+                    <img src="imag/pan tostado.jpg" alt="Producto 2">
                     <h3>Agua Purificada Retornable Ciel Garrafón 20 L</h3>
                     <p>Desde <strong>$42.00</strong></p>
                     <button>Agregar</button>

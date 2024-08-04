@@ -43,6 +43,23 @@ header {
     width: 160px; /* tamaño según sea necesario */
 }
 
+
+.menu-1,
+.menu-2 {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo-2 {
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
 .menu {
     display: flex;
     align-items: center;
@@ -50,11 +67,18 @@ header {
     width: 100%;
 }
 
+.menu.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 .navbar {
     display: flex;
-    align-items: center;
     justify-content: space-between;
     width: 100%;
+    align-items: center;
 }
 
 .menu-1 ul, .menu-2 ul {
@@ -90,6 +114,8 @@ header {
     background-size: cover; /*  imagen de fondo cubra todo el área */
     background-position: center; /* Centra la imagen de fondo */
     background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+    display: block;
+    margin: 0 auto; /* Centrar la imagen horizontalmente */
 }
 
 .menu label {
@@ -372,6 +398,8 @@ main {
 aside {
     width: 20%;
     padding-right: 20px;
+    margin-left: 250px; /*  margen según sea necesario */
+
 }
 
 aside h2 {
