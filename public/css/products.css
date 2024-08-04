@@ -540,9 +540,19 @@ aside h2 {
 }
 
 .banner {
-    width: 100%; /* Ajusta el ancho al 100% del contenedor */
-    height: auto; /* Mantiene la relación de aspecto */
-    max-width: 1200px; /* Ajusta el ancho máximo según sea necesario */
+    width: 100%; /* ancho al 100% del contenedor */
+    height: auto; /*relación de aspecto */
+    max-width: 1600px; /* ncho máximo según sea necesario */
     display: block; /* Asegura que no haya espacios adicionales alrededor de la imagen */
     margin: 0 auto; /* Centra la imagen horizontalmente */
+}
+
+.sectionBanner {
+    width: 100%; /* El contenedor ocupa todo el ancho disponible */
+    margin: 0; /* Elimina cualquier margen predeterminado */
+    padding: 0; /* Elimina cualquier padding predeterminado */
+}
+
+.sectionBanner div {
+    width: 100%; /* Asegura que el div contenedor ocupe todo el ancho */
 }

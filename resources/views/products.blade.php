@@ -53,7 +53,7 @@
         </div>
     </header>
 
-    <section>
+    <section class="sectionBanner">
         <div>
             <img class="banner" src="imag/banner.png" alt="">
 

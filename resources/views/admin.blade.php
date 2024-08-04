@@ -22,7 +22,8 @@
         <div  class="nav-Abarrotes-container">
             <li class="nav-Abarrotes">
                 <a href="#">
-                    <i class="fa-solid fa-cart-shopping" id="shoppingCart" ></i>
+                    <img src="imag/carritoCanva.png" id="carritoCanva" alt="">
+
                 </a>
             </li>
             <h1>Abarrotes Olán</h1>
@@ -100,28 +101,7 @@
         <div class="left-content">
 
 
-        <!--busqueda
 
-
-        <div class="search-and-check">
-          <form class="search-box">
-            <input type="text" placeholder="Search event..." />
-            <i class="bx bx-search"></i>
-          </form>
-          <div class="interaction-control-mobile interactions">
-            <i class="fa-regular fa-envelope notified"></i>
-            <i class="fa-regular fa-bell notified"></i>
-            <div class="toggle" onclick="switchTheme()">
-              <div class="mode-icon moon">
-                <i class="bx bxs-moon"></i>
-              </div>
-              <div class="mode-icon sun hidden">
-                <i class="bx bxs-sun"></i>
-              </div>
-            </div>
-          </div>
-        </div>
-        fin de busqueda-->
 
         <div class="header">
 
@@ -168,165 +148,138 @@
 
           </picture>
 
+          <div class="dashboardCard">
+            <div class="card green">
+                <div class="IconCard">
+                    <i class="fa-solid fa-user" id="userCard"></i>
+                </div>
+                <div class="text">
+                    <h2>2</h2>
+                    <p>Usuarios</p>
+                </div>
+            </div>
+
+            <div class="card blue">
+                <div class="IconCard">
+                    <i class="fa-solid fa-dollar-sign" id="dollarCard"></i>
+                </div>
+                <div class="text">
+                    <h2>0</h2>
+                    <p>Ventas</p>
+                </div>
+            </div>
+            <div class="card orange">
+                <div class="IconCard">
+                    <i class="fa-solid fa-cart-shopping" id="shoppingCard"></i>
+                </div>
+                <div class="text">
+                    <h2>1</h2>
+                    <p>Productos</p>
+                </div>
+            </div>
+            <div class="card red">
+                <div class="IconCard">
+                    <i class="fa-solid fa-list"  id="listCard"></i>
+                </div>
+                <div class="text">
+                    <h2>1</h2>
+                    <p>Categorías</p>
+                </div>
+            </div>
+
+
+
+            <div class="dashboard-container">
+                <div class="dashboard-card">
+                    <div class="card-header">
+                        <i class="fa-solid fa-file-alt"></i>
+                        <h2>Productos más vendidos</h2>
+                    </div>
+                    <table class="dashboard-table">
+                        <thead>
+                            <tr>
+                                <th>Título</th>
+                                <th>Total vendido</th>
+                                <th>Cantidad total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Producto 1</td>
+                                <td>100</td>
+                                <td>50</td>
+                            </tr>
+                            <!-- Más filas según sea necesario -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="dashboard-card">
+                    <div class="card-header">
+                        <i class="fa-solid fa-file-alt"></i>
+                        <h2>Últimas ventas</h2>
+                    </div>
+                    <table class="dashboard-table">
+                        <thead>
+                            <tr>
+                                <th>Título</th>
+                                <th>Fecha</th>
+                                <th>Venta total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Producto 2</td>
+                                <td>12/08/2023</td>
+                                <td>200</td>
+                            </tr>
+                            <!-- Más filas según sea necesario -->
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="dashboard-card">
+                    <div class="card-header">
+                        <i class="fa-solid fa-file-alt"></i>
+                        <h2>Productos recientemente añadidos</h2>
+                    </div>
+                    <table class="dashboard-table">
+                        <thead>
+                            <tr>
+                                <th>Título</th>
+                                <th>Total vendido</th>
+                                <th>Cantidad total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Producto 3</td>
+                                <td>300</td>
+                                <td>150</td>
+                            </tr>
+                            <!-- Más filas -->
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+
+
+
 
 
         </div>
 
 
-        <div class="upcoming-events">
-          <h1>Upcoming Events</h1>
-          <div class="event-container">
-            <div class="card event-card">
-              <div class="event-header">
-                <img
-                  src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/697ef286-1104-4c6c-91d6-0b2a1e04009b"
-                  alt="" />
-                <p>March 19, 8:00 PM</p>
-                <i class="bx bx-heart like-btn"></i>
-              </div>
-              <div class="event-content">
-                <h2>Acoustic Serenade Under the Stars</h2>
-                <p>Skyline Amphitheater</p>
-              </div>
-              <div class="event-footer">
-                <p style="background-color: #e48e2c">Concert</p>
-                <div class="btn-group">
-                  <button>Buy Ticket</button>
-                  <div class="share">
-                    <button class="share-btn">
-                      <i class="fa-solid fa-share"></i>
-                    </button>
-                    <ul class="popup">
-                      <li>
-                        <a href="#" style="color: rgb(79, 153, 213)"
-                          ><i class="bx bxl-twitter"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="#" style="color: rgb(34, 173, 34)"
-                          ><i class="bx bxl-whatsapp"></i
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
 
-            <div class="card event-card">
-              <div class="event-header">
-                <img
-                  src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/19cc9b1d-0dd6-4e4e-ab5c-1d9efd443953"
-                  alt="" />
-                <p>March 22, 8:00 PM</p>
-                <i class="bx bxs-heart like-btn"></i>
-              </div>
-              <div class="event-content">
-                <h2>Latin Rhythms Fusion</h2>
-                <p>Dance Studio X</p>
-              </div>
-              <div class="event-footer">
-                <p style="background-color: #582bac">Workshop</p>
-                <div class="btn-group">
-                  <button>Buy Ticket</button>
-                  <div class="share">
-                    <button class="share-btn">
-                      <i class="fa-solid fa-share"></i>
-                    </button>
-                    <ul class="popup">
-                      <li>
-                        <a href="#" style="color: rgb(79, 153, 213)"
-                          ><i class="bx bxl-twitter"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="#" style="color: rgb(34, 173, 34)"
-                          ><i class="bx bxl-whatsapp"></i
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="card event-card">
-              <div class="event-header">
-                <img
-                  src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/34203989-4778-4e9a-8537-d42c073a458d"
-                  alt="" />
-                <p>March 26, 10:00 PM</p>
-                <i class="bx bx-heart like-btn"></i>
-              </div>
-              <div class="event-content">
-                <h2>Jazz Fusion Night</h2>
-                <p>Jazz Haven Lounge</p>
-              </div>
-              <div class="event-footer">
-                <p style="background-color: #e48e2c">Concert</p>
-                <div class="btn-group">
-                  <button>Buy Ticket</button>
-                  <div class="share">
-                    <button class="share-btn">
-                      <i class="fa-solid fa-share"></i>
-                    </button>
-                    <ul class="popup">
-                      <li>
-                        <a href="#" style="color: rgb(79, 153, 213)"
-                          ><i class="bx bxl-twitter"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="#" style="color: rgb(34, 173, 34)"
-                          ><i class="bx bxl-whatsapp"></i
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="card event-card">
-              <div class="event-header">
-                <img
-                  src="https://github.com/ecemgo/mini-samples-great-tricks/assets/13468728/3990b1bd-f34d-4fda-bfc9-d807d9e2f0f6"
-                  alt="" />
-                <p>March 28, 3:00 PM</p>
-                <i class="bx bx-heart like-btn"></i>
-              </div>
-              <div class="event-content">
-                <h2>Clay Sculpting Class</h2>
-                <p>Artisan Workshop Space</p>
-              </div>
-              <div class="event-footer">
-                <p style="background-color: #582bac">Workshop</p>
-                <div class="btn-group">
-                  <button>Buy Ticket</button>
-                  <div class="share">
-                    <button class="share-btn">
-                      <i class="fa-solid fa-share"></i>
-                    </button>
-                    <ul class="popup">
-                      <li>
-                        <a href="#" style="color: rgb(79, 153, 213)"
-                          ><i class="bx bxl-twitter"></i
-                        ></a>
-                      </li>
-                      <li>
-                        <a href="#" style="color: rgb(34, 173, 34)"
-                          ><i class="bx bxl-whatsapp"></i
-                        ></a>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-
-          </div>
         </div>
+
+
+
+
+
+
 
 
       </div>
