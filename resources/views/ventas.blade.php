@@ -34,35 +34,35 @@
       <div>
         <ul>
           <li class="nav-item active">
-            <a href="{{ route('admin') }}">
+            <a href="admin.blade.php">
                 <i class="fa-solid fa-house nav-icon"></i>
               <span class="nav-text">Inicio</span>
             </a>
           </li>
 
           <li class="nav-item">
-            <a href="{{ route('/accesos') }}">
+            <a href="accesos.blade.php">
                 <i class="fa-solid fa-user nav-icon"></i>
               <span class="nav-text">Accesos</span>
             </a>
           </li>
 
           <li class="nav-item">
-            <a href="{{ route('categorias') }}">
+            <a href="categorias.blade.php">
                 <i class="fa-solid fa-list nav-icon"></i>
               <span class="nav-text">Categorías</span>
             </a>
           </li>
 
           <li class="nav-item">
-            <a href="{{ route('productos') }}">
+            <a href="productos.blade.php">
               <i class="fa-solid fa-chart-simple nav-icon"></i>
               <span class="nav-text">Productos</span>
             </a>
           </li>
 
           <li class="nav-item">
-            <a href="{{ route('ventas') }}">
+            <a href="ventas.blade.php">
               <i class="fa fa-heart nav-icon"></i>
               <span class="nav-text">Ventas</span>
             </a>

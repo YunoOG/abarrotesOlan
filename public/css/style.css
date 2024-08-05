@@ -1209,3 +1209,57 @@ body::-webkit-scrollbar-thumb {
 .dashboard-table td {
     background-color: #f7ecd6;
 }
+
+
+
+
+.iconos-navi-container {
+    position: absolute;
+    top: -60px; /* Ajusta la distancia desde la parte superior */
+    right: -30px; /* Ajusta la distancia desde la parte derecha */
+    display: flex;
+    gap: 20px; /* Espaciado entre los iconos */
+}
+
+/* Estilo de los iconos */
+.iconos-navi {
+    color: #1c3b1c; /* Cambia a cualquier color que desees */
+    font-size: 1.5em; /* Ajusta el tamaño del icono */
+    text-decoration: none;
+    position: relative; /* Necesario para posicionar el dropdown relativo al icono */
+    cursor: pointer;
+}
+
+.iconos-navi:hover {
+    color: #ccc; /* Color al pasar el mouse por encima */
+}
+
+
+.dropdown-content {
+    display: none; /* Oculto por defecto */
+    position: absolute;
+    top: 30px; /* Ajusta según la altura del icono */
+    right: 0;
+    background-color: #fff;
+    color: #000;
+    min-width: 200px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1;
+    border-radius: 5px;
+}
+
+/* Estilo para mostrar el dropdown al hacer clic */
+.iconos-navi.active .dropdown-content {
+    display: block;
+}
+
+/* Estilo adicional para hover y transición */
+.iconos-navi:hover {
+    color: #ccc;
+}
+
+.dropdown-content p {
+    margin: 0;
+    padding: 5px 0;
+}

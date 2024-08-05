@@ -15,6 +15,24 @@ Route::get('/products', function () {
     return view('products');
 });
 
+Route::get('/accesos', function () {
+    return view('accesos');
+});
+
+Route::get('/categorias', function () {
+    return view('categorias');
+});
+
+Route::get('/productos', function () {
+    return view('productos');
+});
+
+Route::get('/ventas', function () {
+    return view('ventas');
+});
+
+
+
 
 
 Route::get('/dashboard', function () {
