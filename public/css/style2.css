@@ -17,6 +17,7 @@ html{
 
 section{
     padding: 2rem 9%;
+    background-color: #f1f1f1;
 }
 
 body {
@@ -240,6 +241,13 @@ button {
 
   /*informacion*/
 .Información{
+
+    background: url('../imag/mancha.png') no-repeat center center;
+
+
+
+    min-height: 100vh;
+    background-size: cover;
     background-color: #f1f1f1;
 }
 
@@ -261,7 +269,7 @@ button {
 
 .Información .row .video-container video{
     width: 100%;
-    border: 1.5rem solid #fff;
+    border: 1.5rem solid #1c3b1c79;
     border-radius: .5rem;
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
     height: 100%;
@@ -279,16 +287,16 @@ button {
     mix-blend-mode: screen;
 }
 
-.Información .row .content{
+.Información .row .contentN{
     flex: 1 1 40rem;
 }
 
-.Información .row .content h3{
+.Información .row .contentN h3{
     font-size: 3rem;
     color: #333;
 }
 
-.Información .row .content p{
+.Información .row .contentN p{
     font-size: 1.5rem;
     color: #999;
     padding: .5rem 0;
@@ -765,7 +773,7 @@ button {
 }
 
 
-.text-section {
+.text-Inform {
     position: absolute;
     right: 30%;
     top: 40%;
@@ -776,18 +784,21 @@ button {
     padding: 10px;
 }
 
-.text-section h1, .text-section h2 {
+.text-Inform h1, .text-Inform h2 {
+
 
     margin: 10px 0;
     word-wrap: break-word; /* Asegura que el texto se ajuste dentro del contenedor */
 }
 
-.text-section h1 {
+.text-Inform h1 {
     font-size: 2em;
+
 }
 
-.text-section h2 {
+.text-Inform h2 {
     font-size: 1.5em;
+
 }
 
 
@@ -1107,6 +1118,93 @@ ul {
 }
 
 .sobrenosotros span {
-    color: #007bff; /*  color del texto dentro del span */
+    color: #1c3b1c; /*  color del texto dentro del span */
     text-align: center;
+}
+
+
+
+/*phone*/
+
+.containerPhone {
+    display: flex;
+    align-items: center;
+
+    border-radius: 20px;
+    padding: 20px;
+    max-width: 1000px;
+    width: 100%;
+    position: relative;
+}
+
+.phone-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+
+
+.phone-mockup {
+    position: relative; /* Añadido para asegurar que la imagen esté en el contexto de la posición */
+}
+
+.phone-mockup img {
+    max-height: 600px;
+    width: auto;
+    margin-left: 20px;
+    margin-top: -100px;
+}
+
+.text-section {
+    flex: 1;
+    padding-left: 20px;
+}
+
+.text-section h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: -100px;
+    margin-left: 100px;
+    white-space: nowrap;
+}
+
+.text-section .highlight {
+    color: #1c3b1c;
+}
+
+.features-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.features-list li {
+    margin: 10px 0;
+    font-size: 1.2em;
+    margin-left: 100px;
+}
+.features-list li p {
+    margin: 10px 0;
+    font-size: 0.9em;
+    color: #555;
+
+}
+
+
+
+
+
+
+
+.sectionPhone{
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: url('../imag/decoracion1.png') no-repeat;
+    background-size: cover;
+    background-color: #f1f1f1;
+
 }

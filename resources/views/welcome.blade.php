@@ -194,7 +194,7 @@
                 </div>
             </div>
         </div>
-        <div class="text-section">
+        <div class="text-Inform">
             <h1>Encuentra lo que necesitas con una sonrisa en Abarrotes Olan. </h1>
             <h2>Nos enorgullece ofrecerte una selección de productos frescos
                 y a precios justos, todo en un entorno que te hará sentir como
@@ -234,7 +234,7 @@
                 <h3> El mejor abarrotes</h3>
             </div>
 
-            <div class="content">
+            <div class="contentN">
                 <h3>¿Por qué nosotros?</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit magnam amet ullam dignissimos cupiditate
                     expedita corporis ipsum repellendus, aliquid labore natus ducimus maxime excepturi? Aliquam facilis
@@ -266,6 +266,34 @@
 
 
     <!--fin informacion-->
+
+    <section class="sectionPhone">
+        <div class="containerPhone">
+            <div class="phone-section">
+                <div class="phone-mockup">
+                    <img src="imag/phone-mockup.png" alt="Phone Mockup">
+                </div>
+            </div>
+            <div class="text-section">
+                <h1>Nuestros <span class="highlight"> Servicios</span></h1>
+                <ul class="features-list">
+                    <li>Surtido de Productos Frescos
+                        <p>"Te ofrecemos una amplia variedad de productos frescos, desde frutas y verduras hasta carnes y lácteos, seleccionados con cuidado para que siempre encuentres lo mejor."</p>
+                    </li>
+                    <li>Pedidos en Línea
+                        <p>"Haz tu compra desde la comodidad de tu hogar a través de nuestra tienda en línea. Simplemente selecciona los productos que necesitas, elige tu método de pago, y nosotros nos encargamos del resto."</p>
+                    </li>
+                    <li>Recogida en Tienda
+                        <p>"¿Prefieres hacer tu pedido en línea pero recogerlo en la tienda? Ofrecemos un servicio de recogida rápida. Haz tu pedido, y estará listo para ti en poco tiempo, sin necesidad de hacer fila."</p>
+                    </li>
+                    <li>Asesoramiento Personalizado
+                        <p>"¿Tienes dudas sobre qué producto elegir o necesitas recomendaciones? Nuestro equipo está aquí para ayudarte a encontrar lo que necesitas. No dudes en pedir consejo a nuestros amables empleados."</p>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </section>
 
 
 
