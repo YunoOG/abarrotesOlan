@@ -38,7 +38,7 @@
                         </a>
                         <a href="#">
                             <div class="icons1">
-                                <div class="bx bx-user" id="login-btn" onclick="opneModal()"></div>
+                                <div class="bx bx-user" id="login-btn" ></div>
                             </div>
                         </a>
                         <a href="#">
@@ -149,7 +149,7 @@
 
     <!--informacion-->
 
-    <section class="contentCard">
+    <section class="contentCard" id="contentCard">
         <div class="column1">
             <div class="e-card playing card1">
                 <div class="wave"></div>
@@ -263,11 +263,9 @@
 
     </section>
 
-
-
     <!--fin informacion-->
 
-    <section class="sectionPhone">
+    <section class="sectionPhone" id="sectionPhone">
         <div class="containerPhone">
             <div class="phone-section">
                 <div class="phone-mockup">
@@ -294,9 +292,6 @@
             </div>
         </div>
     </section>
-
-
-
     <!--inicio seccion de productos-->
 
     <section class="productos" id="productos">
@@ -568,8 +563,6 @@
 
 
     <!--Inicio seccion de footer-->
-
-
 
     <section class="footer">
 

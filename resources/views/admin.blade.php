@@ -31,43 +31,43 @@
 
 
 
-      <div>
-        <ul>
-          <li class="nav-item active">
-            <a href="{{ route('admin') }}">
-                <i class="fa-solid fa-house nav-icon"></i>
-              <span class="nav-text">Inicio</span>
-            </a>
-          </li>
+        <div>
+            <ul>
+              <li class="nav-item active">
+                <a href="admin.blade.php">
+                    <i class="fa-solid fa-house nav-icon"></i>
+                  <span class="nav-text">Inicio</span>
+                </a>
+              </li>
 
-          <li class="nav-item">
-            <a href="{{ route('/accesos') }}">
-                <i class="fa-solid fa-user nav-icon"></i>
-              <span class="nav-text">Accesos</span>
-            </a>
-          </li>
+              <li class="nav-item">
+                <a href="{{ route('accesos') }}">
+                    <i class="fa-solid fa-user nav-icon"></i>
+                  <span class="nav-text">Accesos</span>
+                </a>
+              </li>
 
-          <li class="nav-item">
-            <a href="{{ route('categorias') }}">
-                <i class="fa-solid fa-list nav-icon"></i>
-              <span class="nav-text">Categorías</span>
-            </a>
-          </li>
+              <li class="nav-item">
+                <a href="categorias.blade.php">
+                    <i class="fa-solid fa-list nav-icon"></i>
+                  <span class="nav-text">Categorías</span>
+                </a>
+              </li>
 
-          <li class="nav-item">
-            <a href="{{ route('productos') }}">
-              <i class="fa-solid fa-chart-simple nav-icon"></i>
-              <span class="nav-text">Productos</span>
-            </a>
-          </li>
+              <li class="nav-item">
+                <a href="productos.blade.php">
+                  <i class="fa-solid fa-chart-simple nav-icon"></i>
+                  <span class="nav-text">Productos</span>
+                </a>
+              </li>
 
-          <li class="nav-item">
-            <a href="{{ route('ventas') }}">
-              <i class="fa fa-heart nav-icon"></i>
-              <span class="nav-text">Ventas</span>
-            </a>
-          </li>
-      </div>
+              <li class="nav-item">
+                <a href="ventas.blade.php">
+                  <i class="fa fa-heart nav-icon"></i>
+                  <span class="nav-text">Ventas</span>
+                </a>
+              </li>
+          </div>
 
       <div class="user-info">
         <img
